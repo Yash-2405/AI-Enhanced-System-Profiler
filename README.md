@@ -63,4 +63,4 @@ MIT License — use freely and contribute if you'd like!
 
 🙌 Author
 Yash V
-LinkedIn["https://www.linkedin.com/in/yash-v-/"] | GitHub["https://github.com/Yash-2405"]
+LinkedIn(https://www.linkedin.com/in/yash-v-/) | GitHub(https://github.com/Yash-2405)
