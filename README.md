@@ -1,82 +1,50 @@
-# 📊 Real-Time System Performance Profiler
+# 🧠 AI-Enhanced System Performance Profiler
 
-A real-time system performance monitoring dashboard built with **Python**, **Streamlit** and **psutil**, designed to track CPU, Memory, and GPU usage on your system. Ideal for developers, system engineers, and AI/ML professionals who need live performance insights.
+A real-time system monitoring tool built with **Python**, **Streamlit**, and **Gemini (Google AI)**. This profiler not only visualizes key system metrics like CPU, memory, disk, and network usage, but also generates intelligent insights using Google's Gemini model (1.5 Flash).
 
----
-
-## 📸 Demo
-
-![Screenshot 2025-06-13 115900](https://github.com/user-attachments/assets/2e21b015-e47c-49c6-afe5-46d8a6a08e94)
+# Demo 
 
 
----
 
 ## 🚀 Features
+- Real-time monitoring of:
+  - 🖥️ CPU usage
+  - 💾 Memory consumption
+  - 🗄️ Disk usage
+  - 📶 Network IO
+- Clean and interactive UI using Streamlit
+- AI-generated insights powered by `gemini-1.5-flash`
+- Prompt engineering with natural language summaries and optimization tips
 
-- 📈 Real-time CPU, Memory, and GPU usage monitoring
-- 📊 Live metrics and line charts
-- ⏰ 5-minute demo runtime (configurable)
-- 📋 System log file generation
-- ✅ Simple to set up and run locally
-
----
-
-## 🛠️ Tech Stack
-
+## 🛠 Tech Stack
 - **Python**
-- **Streamlit**
-- **Pandas**
 - **psutil**
+- **Streamlit**
+- **Google Generative AI SDK**
 
----
+## 🧑‍💻 Setup Instructions
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Yash-2405/AI-Enhanced-System-Profiler
+   cd AI-Enhanced-System-Profiler
+   ```
 
-## 📌 Impact
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-- Used by **10+ engineers** during ML model testing and debugging
-- Enabled early detection of **runtime spikes** and system anomalies
-- Improved model resource profiling by **30%**
+3. Run the app:
+   ```bash
+   streamlit run main.py
+   ```
 
----
+4. Paste your Gemini API Key (get one from [Google AI Studio](https://makersuite.google.com/app)) into the input field.
 
-## 📦 How to Run
+## 📦 Requirements
+- Python 3.8+
+- Internet connection for Gemini API access
+- Gemini API Key (free-tier supported)
 
-1️⃣ Clone this repository:
-```bash
-git clone https://github.com/Yash-2405/system-performance-dashboard.git
-cd system-performance-dashboard
-```
-2️⃣ Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-3️⃣ Start the system monitor in one terminal:
-```bash
-python monitor.py
-```
-4️⃣ In another terminal, run the Streamlit dashboard:
-```bash
-streamlit run dashboard.py
-```
-✅ Open your browser at: http://localhost:8501
-
-## 💡 Use Cases
-
-- Model training pipeline profiling
-- Detect memory leakage or high CPU usage during test runs
-- System benchmarking tool for lightweight performance monitoring
-
-
-## 🧠 Future Enhancements
-
-- AI-powered anomaly detection for performance spikes
-- Email alerts for critical usage events
-- Deployment to Streamlit Cloud
-
-📜 License
-MIT License — use freely and contribute if you'd like!
-
-Author
-
-Yash V
-
-[LinkedIn](https://www.linkedin.com/in/yash-v-/) | [GitHub](https://github.com/Yash-2405)
+## 📄 License
+MIT License
