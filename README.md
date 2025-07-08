@@ -2,9 +2,8 @@
 
 A real-time system monitoring tool built with **Python**, **Streamlit**, and **Gemini (Google AI)**. This profiler not only visualizes key system metrics like CPU, memory, disk, and network usage, but also generates intelligent insights using Google's Gemini model (1.5 Flash).
 
-# Demo 
 
-
+## 🎥 [Click here to watch demo video]([https://drive.google.com/your-video-link](https://drive.google.com/file/d/1e0zPgM8AIPcAVAFANedJY8EQyp5Uo54i/view?usp=sharing))
 
 ## 🚀 Features
 - Real-time monitoring of:
@@ -48,3 +47,9 @@ A real-time system monitoring tool built with **Python**, **Streamlit**, and **G
 
 ## 📄 License
 MIT License
+
+## Author
+
+Yash V
+
+[LinkedIn](https://www.linkedin.com/in/yash-v-/) | [Github](https://github.com/Yash-2405)
